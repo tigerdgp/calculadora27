@@ -24,15 +24,19 @@
 <body>
 	<form method="post" action="/27/calculadora.php">
 		<h1>Calculadora</h1>
-		<div>
-			<div>
+		<div id="calculadora">
+			<div class="linha">
 				<input name="val_a" type="text">
 				<input type="text" name="val_b">
 			</div>
-			<select name="op">
-				<option value="+">+</option>
-			</select>
-			<button name="calcular">Calcular</button>		
+			<div class="linha">
+				<select name="op">
+					<option value="+">+</option>
+				</select>
+			</div>
+			<div class="linha">
+				<button name="calcular">Calcular</button>
+			</div>
 		</div>
 		
 		<p id="resposta"></p>
