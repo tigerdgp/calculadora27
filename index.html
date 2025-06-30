@@ -25,13 +25,16 @@
 	<form method="post" action="/27/calculadora.php">
 		<h1>Calculadora</h1>
 		<div>
-			<input name="val_a" type="text">
+			<div>
+				<input name="val_a" type="text">
+				<input type="text" name="val_b">
+			</div>
 			<select name="op">
 				<option value="+">+</option>
 			</select>
-			<input type="text" name="val_b">			
+			<button name="calcular">Calcular</button>		
 		</div>
-		<button name="calcular">Calcular</button>
+		
 		<p id="resposta"></p>
 	</form>
 </body>
